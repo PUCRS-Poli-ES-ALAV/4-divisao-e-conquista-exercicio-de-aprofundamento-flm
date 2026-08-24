@@ -8,6 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Multiply m = new Multiply();
+
+        System.out.println("Multiplicação de 3 e 4: " + m.multiply(4,8, 32));
     }
 }

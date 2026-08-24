@@ -31,7 +31,7 @@
       <artifactId>util</artifactId>
       <version>1.0</version>
       <scope>system</scope>
-      <systemPath>${project.basedir}/../../../MavenRep/utiltimecounter.jar</systemPath>
+      <systemPath>${project.basedir}/../../MavenRep/utiltimecounter.jar</systemPath>
    </dependency>
     
   </dependencies>
