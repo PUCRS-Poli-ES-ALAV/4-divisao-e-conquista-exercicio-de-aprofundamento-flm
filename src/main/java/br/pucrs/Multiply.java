@@ -19,7 +19,10 @@ Ajuste a assinatura da sua implementação para receber tipo inteiros long (em j
 */
 
 public class Multiply {
+    private static long iteracoes = 0;
+
     public static long multiply(long x, long y, int n) {
+        iteracoes++;
         if (n == 1)
             return x * y;
 
@@ -38,4 +41,26 @@ public class Multiply {
             return (1L << (2 * m)) * e + (1L << m) * (g + h) + f;
         }
     }
+
+    public void testar(long x, long y, int n) {
+
+        iteracoes = 0;
+
+        long inicio = System.nanoTime();
+
+        long resultado = multiply(x, y, n);
+
+        long fim = System.nanoTime();
+
+        long tempo = fim - inicio;
+
+        System.out.println("----- TESTE " + n + " BITS -----");
+        System.out.println("x: " + x);
+        System.out.println("y: " + y);
+        System.out.println("Resultado: " + resultado);
+        System.out.println("Iterações: " + iteracoes);
+        System.out.println("Tempo: " + tempo + " ns");
+        System.out.println();
+    }
 }
+

@@ -10,6 +10,10 @@ public class App
     {
         Multiply m = new Multiply();
 
-        System.out.println("Multiplicação de 3 e 4: " + m.multiply(4,8, 32));
+        m.testar(7, 6, 4);
+
+        m.testar(12345, 23456, 16);
+
+        m.testar(2_000_000_000L, 3_000_000_000L, 64);
     }
 }
