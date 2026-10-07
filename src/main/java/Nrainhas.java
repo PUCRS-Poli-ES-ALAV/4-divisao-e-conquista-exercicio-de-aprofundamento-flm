@@ -11,7 +11,7 @@
 
 public class Nrainhas {
     public static void main(String[] args) {
-        int n = 8; // Tamanho do tabuleiro (n x n)
+        int n = 4; // Tamanho do tabuleiro (n x n)
         int[][] tabuleiro = new int[n][n];
 
         if (resolverNrainhas(tabuleiro, 0)) {
