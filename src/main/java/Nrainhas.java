@@ -8,8 +8,6 @@
 // 3. Ajuste sua solução para que usar backtracking (se não foi o caso) e para que retorne todas as soluções, não só a primeira.
 
 // 4. Implemente (ou recupere) uma classe de grafo dirigido e inclua um método de percorre todo o gráfico em profundidade, usando Backtracking , a partir de um determinado nó.
-import java.util.ArrayList;
-import java.util.List;
 
 public class Nrainhas {
     public static void main(String[] args) {
